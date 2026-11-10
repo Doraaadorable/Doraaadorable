@@ -6,9 +6,9 @@ Master of Management in Analytics student at **McGill University**, with a BSc i
 
 ### Selected work
 
-- **[ALDO Return-to-Resale — Hackathon Second Place](https://doraaadorable.github.io/aldo-case-study.html)** — Developed an AI-assisted workflow for footwear returns using rule-based buyer eligibility and simulated resale offers. The prototype passed 82 local automated tests; commercial outcomes have not been validated. [Public case study](https://doraaadorable.github.io/aldo-case-study.html) (implementation and competition materials are private).
-- **[Footwear Impression Classification Under Occlusion](https://github.com/Doraaadorable/footwear-occlusion-robustness)** — Investigating occlusion robustness, pair-aware evaluation, and dataset shortcuts in footwear impression classification.
-- **[Texas Last Statements — NLP Research](https://github.com/Doraaadorable/death-row-last-statements-nlp)** — Exploring reproducible text processing and topic modelling of publicly recorded last statements, with attention to measurement validity.
+- **[Footwear Impression Classification Under Occlusion](https://github.com/Doraaadorable/footwear-occlusion-robustness)**: occlusion augmentation raised accuracy under 80% masking from 54% to 95%, but only for the rectangle masks it was trained on; the gain vanished for irregular occluders and reversed under heavy noise. Pair-level splits, shortcut controls and a reproduction pipeline on public data.
+- **[ReMatch: ALDO Return-to-Resale](https://github.com/Doraaadorable/aldo-rematch)**: 2nd of 10 finalist teams at McGill's Bensadoun Retail Gen AI Hackathon with ALDO Group. As the team's modeller I built an agent that matches inspected returns to resale buyers under Python business rules, and afterwards added a model of when resale beats liquidation or donation. Public synthetic-data version with tests and CI; [case study](https://doraaadorable.github.io/aldo-case-study.html).
+- **[Texas Last Statements: Measuring Language](https://github.com/Doraaadorable/death-row-last-statements-nlp)**: a reproducible corpus of last statements and a study, with rules frozen before coding, of whether keyword, topic-model and LLM measures of apology and innocence claims match blind two-coder human coding. Being extended, with a faculty supervisor, to a BERT classifier trained on expert coding from a published study.
 
 ### Tools and methods
 
